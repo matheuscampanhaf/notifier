@@ -8,7 +8,10 @@ class SocketIOManager {
     constructor() {
         this.handler = null;
     }
-
+/**
+ * returns the SocketIO server instance
+ * @param {httpServer} httpServer 
+ */
     getInstance(httpServer) {
         if (this.handler != null) {
             return this.handler;
