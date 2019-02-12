@@ -28,7 +28,7 @@ async function publish(){
         msgID: uuid4(),
         timestamp: Date.now(),
         metaAttrsFilter: {
-            level: 1,
+            level: 10,
         },
         message: "DEU ALGUMA COISA MUITO ERRADO",
         subject: "debug"
